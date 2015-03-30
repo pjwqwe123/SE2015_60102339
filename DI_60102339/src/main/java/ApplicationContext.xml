@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="professor" class="kr.ac.mju.se.park.Professor">
+		<constructor-arg>
+			<value>최성운</value>
+		</constructor-arg>
+
+	</bean>
+	<bean id="Lecture" class="kr.ac.mju.se.park.Lecture">
+		<constructor-arg>
+			<value>C 언어 </value>
+		</constructor-arg>
+
+	</bean>
+
+	<bean id="student" class="kr.ac.mju.se.park.Student">
+		<constructor-arg>
+			<value>박지원 </value>
+		</constructor-arg>
+
+	</bean>
+</beans>
