@@ -5,13 +5,13 @@
 
 	<bean id="professor" class="kr.ac.mju.se.park.Professor">
 		<constructor-arg>
-			<value>최성운</value>
+			<value>홍길동</value>
 		</constructor-arg>
 
 	</bean>
 	<bean id="Lecture" class="kr.ac.mju.se.park.Lecture">
 		<constructor-arg>
-			<value>C 언어 </value>
+			<value>소프트웨어 공학 </value>
 		</constructor-arg>
 
 	</bean>
