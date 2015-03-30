@@ -30,6 +30,8 @@ public class Professor {
 		// TODO Auto-generated method stub
 		System.out.println(this.lecture.getName());
 		System.out.println(this.lecture.getStudent());
+	
+	
 	}
 
 }
